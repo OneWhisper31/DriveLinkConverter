@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Link converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="icon" type="image/x-icon" href="./icon.png"> -->
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="row">
+            <h1 class="flex-item title">Google drive converter</h1>
+            <p class="flex-item basic-text">This page converts your google drive link used to share into a direct
+                download link
+            </p>
+            <div class="flex-item div-input">
+                <input id="input" class="input">
+            </div>
+            <button class="btn btn-dark" onclick="onButtonClick()">CLICK TO CONVERT</button>
+            <div class="flex-item">
+                <p class="link-primary output" id="output"></p>
+                <button onclick="onCopyClick()" class="btn btn-link copy-icon-hide" id="copy-icon">
+                    <img class="copy-icon-image" src="./Assets/CopyIcon.png">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
